@@ -121,7 +121,7 @@ public class Enemy : MonoBehaviour
 
         animator.SetTrigger("walk");
         
-        transform.Rotate((randomRange * transform.up).normalized * Time.deltaTime * 300.0f);
+        transform.Rotate((randomRange * transform.up).normalized * Time.deltaTime * 150.0f);
         transform.position += transform.forward * 2.0f * Time.deltaTime;
     }
 }
